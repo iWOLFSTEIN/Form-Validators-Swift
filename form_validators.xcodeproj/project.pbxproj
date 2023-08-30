@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		126943042A9F7536000D8D9D /* ValidatableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126943032A9F7536000D8D9D /* ValidatableTextField.swift */; };
 		1273D58B2A9F283E0086454D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D58A2A9F283E0086454D /* AppDelegate.swift */; };
 		1273D58D2A9F283E0086454D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D58C2A9F283E0086454D /* SceneDelegate.swift */; };
-		1273D58F2A9F283E0086454D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D58E2A9F283E0086454D /* ViewController.swift */; };
 		1273D5922A9F283E0086454D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1273D5902A9F283E0086454D /* Main.storyboard */; };
 		1273D5942A9F283E0086454D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1273D5932A9F283E0086454D /* Assets.xcassets */; };
 		1273D5972A9F283E0086454D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1273D5952A9F283E0086454D /* LaunchScreen.storyboard */; };
+		1273D59F2A9F29640086454D /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D59E2A9F29640086454D /* SignupViewController.swift */; };
+		1273D5A32A9F2A0E0086454D /* ValidateRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5A22A9F2A0E0086454D /* ValidateRule.swift */; };
+		1273D5A62A9F2A8C0086454D /* EmptyRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5A52A9F2A8C0086454D /* EmptyRule.swift */; };
+		1273D5A82A9F2C620086454D /* MatchingPasswordRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5A72A9F2C620086454D /* MatchingPasswordRule.swift */; };
+		1273D5AC2A9F2D5D0086454D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5AB2A9F2D5D0086454D /* Constants.swift */; };
+		1273D5AE2A9F2D690086454D /* ErrorMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5AD2A9F2D690086454D /* ErrorMessages.swift */; };
+		1273D5B02A9F2F360086454D /* MinLengthRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5AF2A9F2F360086454D /* MinLengthRule.swift */; };
+		1273D5B22A9F2FEC0086454D /* FieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5B12A9F2FEC0086454D /* FieldValidator.swift */; };
+		1273D5B42A9F30300086454D /* UsernameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5B32A9F30300086454D /* UsernameValidator.swift */; };
+		1273D5B62A9F30B20086454D /* NameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5B52A9F30B20086454D /* NameValidator.swift */; };
+		1273D5B92A9F31330086454D /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5B82A9F31330086454D /* EmailValidator.swift */; };
+		1273D5BB2A9F31870086454D /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5BA2A9F31870086454D /* PasswordValidator.swift */; };
+		1273D5BD2A9F31BC0086454D /* ConfirmPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5BC2A9F31BC0086454D /* ConfirmPasswordValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		126943032A9F7536000D8D9D /* ValidatableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatableTextField.swift; sourceTree = "<group>"; };
 		1273D5872A9F283E0086454D /* form_validators.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = form_validators.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1273D58A2A9F283E0086454D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1273D58C2A9F283E0086454D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1273D58E2A9F283E0086454D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1273D5912A9F283E0086454D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1273D5932A9F283E0086454D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1273D5962A9F283E0086454D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1273D5982A9F283E0086454D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1273D59E2A9F29640086454D /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		1273D5A22A9F2A0E0086454D /* ValidateRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateRule.swift; sourceTree = "<group>"; };
+		1273D5A52A9F2A8C0086454D /* EmptyRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyRule.swift; sourceTree = "<group>"; };
+		1273D5A72A9F2C620086454D /* MatchingPasswordRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchingPasswordRule.swift; sourceTree = "<group>"; };
+		1273D5AB2A9F2D5D0086454D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1273D5AD2A9F2D690086454D /* ErrorMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessages.swift; sourceTree = "<group>"; };
+		1273D5AF2A9F2F360086454D /* MinLengthRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinLengthRule.swift; sourceTree = "<group>"; };
+		1273D5B12A9F2FEC0086454D /* FieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldValidator.swift; sourceTree = "<group>"; };
+		1273D5B32A9F30300086454D /* UsernameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameValidator.swift; sourceTree = "<group>"; };
+		1273D5B52A9F30B20086454D /* NameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameValidator.swift; sourceTree = "<group>"; };
+		1273D5B82A9F31330086454D /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		1273D5BA2A9F31870086454D /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
+		1273D5BC2A9F31BC0086454D /* ConfirmPasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPasswordValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +84,50 @@
 			children = (
 				1273D58A2A9F283E0086454D /* AppDelegate.swift */,
 				1273D58C2A9F283E0086454D /* SceneDelegate.swift */,
-				1273D58E2A9F283E0086454D /* ViewController.swift */,
 				1273D5902A9F283E0086454D /* Main.storyboard */,
 				1273D5932A9F283E0086454D /* Assets.xcassets */,
 				1273D5952A9F283E0086454D /* LaunchScreen.storyboard */,
 				1273D5982A9F283E0086454D /* Info.plist */,
+				1273D59E2A9F29640086454D /* SignupViewController.swift */,
+				1273D5AA2A9F2CC70086454D /* FormValidator */,
 			);
 			path = form_validators;
+			sourceTree = "<group>";
+		};
+		1273D5A42A9F2A2D0086454D /* ValidationRules */ = {
+			isa = PBXGroup;
+			children = (
+				1273D5A22A9F2A0E0086454D /* ValidateRule.swift */,
+				1273D5A52A9F2A8C0086454D /* EmptyRule.swift */,
+				1273D5A72A9F2C620086454D /* MatchingPasswordRule.swift */,
+				1273D5AF2A9F2F360086454D /* MinLengthRule.swift */,
+			);
+			path = ValidationRules;
+			sourceTree = "<group>";
+		};
+		1273D5AA2A9F2CC70086454D /* FormValidator */ = {
+			isa = PBXGroup;
+			children = (
+				1273D5A42A9F2A2D0086454D /* ValidationRules */,
+				1273D5B72A9F30FF0086454D /* FormFields */,
+				1273D5AB2A9F2D5D0086454D /* Constants.swift */,
+				1273D5AD2A9F2D690086454D /* ErrorMessages.swift */,
+				126943032A9F7536000D8D9D /* ValidatableTextField.swift */,
+			);
+			path = FormValidator;
+			sourceTree = "<group>";
+		};
+		1273D5B72A9F30FF0086454D /* FormFields */ = {
+			isa = PBXGroup;
+			children = (
+				1273D5B12A9F2FEC0086454D /* FieldValidator.swift */,
+				1273D5B32A9F30300086454D /* UsernameValidator.swift */,
+				1273D5B52A9F30B20086454D /* NameValidator.swift */,
+				1273D5B82A9F31330086454D /* EmailValidator.swift */,
+				1273D5BA2A9F31870086454D /* PasswordValidator.swift */,
+				1273D5BC2A9F31BC0086454D /* ConfirmPasswordValidator.swift */,
+			);
+			path = FormFields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +201,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1273D58F2A9F283E0086454D /* ViewController.swift in Sources */,
+				1273D5BD2A9F31BC0086454D /* ConfirmPasswordValidator.swift in Sources */,
 				1273D58B2A9F283E0086454D /* AppDelegate.swift in Sources */,
+				1273D5B92A9F31330086454D /* EmailValidator.swift in Sources */,
+				1273D5A62A9F2A8C0086454D /* EmptyRule.swift in Sources */,
+				1273D59F2A9F29640086454D /* SignupViewController.swift in Sources */,
+				1273D5A32A9F2A0E0086454D /* ValidateRule.swift in Sources */,
+				1273D5B42A9F30300086454D /* UsernameValidator.swift in Sources */,
+				1273D5BB2A9F31870086454D /* PasswordValidator.swift in Sources */,
+				1273D5AE2A9F2D690086454D /* ErrorMessages.swift in Sources */,
+				1273D5B02A9F2F360086454D /* MinLengthRule.swift in Sources */,
+				1273D5A82A9F2C620086454D /* MatchingPasswordRule.swift in Sources */,
 				1273D58D2A9F283E0086454D /* SceneDelegate.swift in Sources */,
+				1273D5B22A9F2FEC0086454D /* FieldValidator.swift in Sources */,
+				1273D5AC2A9F2D5D0086454D /* Constants.swift in Sources */,
+				126943042A9F7536000D8D9D /* ValidatableTextField.swift in Sources */,
+				1273D5B62A9F30B20086454D /* NameValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
