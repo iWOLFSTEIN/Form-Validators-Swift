@@ -8,13 +8,12 @@
 import UIKit
 
 class SignupViewController: UIViewController {
-    
-   
     @IBOutlet weak var confirmPasswordTextField: ValidatableTextField!
     @IBOutlet weak var passwordTextField: ValidatableTextField!
     @IBOutlet weak var usernameTextField: ValidatableTextField!
     @IBOutlet weak var emailTextField: ValidatableTextField!
     @IBOutlet weak var nameTextField: ValidatableTextField!
+    let viewModel: SignupViewModel = SignupViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
         nameTextField.validator = NameValidator()
@@ -26,19 +25,26 @@ class SignupViewController: UIViewController {
     }
     
     @IBAction func onConfirmPasswordChanged(_ sender: Any) {
-        confirmPasswordTextField.validate(andMatch: passwordTextField.text)
+        viewModel.isFormValidated = confirmPasswordTextField.validate(andMatch: passwordTextField.text)
     }
     @IBAction func onPasswordChanged(_ sender: Any) {
-        passwordTextField.validate()
+        viewModel.isFormValidated = passwordTextField.validate()
     }
     @IBAction func onUsernameChanged(_ sender: Any) {
-        usernameTextField.validate()
+        viewModel.isFormValidated = usernameTextField.validate()
     }
     @IBAction func onEmailChanged(_ sender: Any) {
-        emailTextField.validate()
+        viewModel.isFormValidated = emailTextField.validate()
     }
     @IBAction func onNameChanged(_ sender: Any) {
-        nameTextField.validate()
+        viewModel.isFormValidated = nameTextField.validate()
     }
     
+    @IBAction func onSignup(_ sender: UIButton) {
+        if viewModel.isFormValidated {
+            print("Signup")
+        } else {
+            print("Please solve the issues first")
+        }
+    }
 }

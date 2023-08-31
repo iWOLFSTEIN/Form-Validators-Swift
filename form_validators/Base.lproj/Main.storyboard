@@ -67,6 +67,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Signup">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="onSignup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BfS-1H-MZo"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DOP-4Y-6ff" customClass="ValidatableTextField" customModule="form_validators" customModuleProvider="target">
                                 <rect key="frame" x="16" y="479" width="361" height="34"/>

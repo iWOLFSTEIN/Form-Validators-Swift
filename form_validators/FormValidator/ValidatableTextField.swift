@@ -38,20 +38,20 @@ class ValidatableTextField: UITextField {
         ])
     }
     
-    func validate() {
-        if !enableErrorMessages { return }
-        validateInput()
+    func validate() -> Bool {
+        if !enableErrorMessages { return true }
+        return validateInput()
     }
     
-    func validate(andMatch input: String?) {
-        if !enableErrorMessages { return }
-        validateInput(input)
+    func validate(andMatch input: String?) -> Bool {
+        if !enableErrorMessages { return true }
+        return validateInput(input)
     }
     
-    private func validateInput(_ optional: String? = nil) {
+    private func validateInput(_ optional: String? = nil) -> Bool {
         guard let input = text, let validator = validator else {
             errorLabel.isHidden = true
-            return
+            return true
         }
         
         let validationMessage: String?
@@ -63,7 +63,10 @@ class ValidatableTextField: UITextField {
         }
         
         errorLabel.text = validationMessage
-        errorLabel.isHidden = validationMessage == nil
+        let isError: Bool = validationMessage == nil
+        errorLabel.isHidden = isError
+        
+        return isError
     }
 }
 

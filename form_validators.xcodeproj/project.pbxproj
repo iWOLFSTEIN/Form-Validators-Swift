@@ -28,6 +28,7 @@
 		1273D5BD2A9F31BC0086454D /* ConfirmPasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1273D5BC2A9F31BC0086454D /* ConfirmPasswordValidator.swift */; };
 		12A580112AA070530060F250 /* EmailValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A580102AA070530060F250 /* EmailValidationRule.swift */; };
 		12A580132AA073370060F250 /* UsernameValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A580122AA073370060F250 /* UsernameValidationRule.swift */; };
+		12A580152AA07DB90060F250 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A580142AA07DB90060F250 /* SignupViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		1273D5BC2A9F31BC0086454D /* ConfirmPasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPasswordValidator.swift; sourceTree = "<group>"; };
 		12A580102AA070530060F250 /* EmailValidationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidationRule.swift; sourceTree = "<group>"; };
 		12A580122AA073370060F250 /* UsernameValidationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameValidationRule.swift; sourceTree = "<group>"; };
+		12A580142AA07DB90060F250 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				1273D5952A9F283E0086454D /* LaunchScreen.storyboard */,
 				1273D5982A9F283E0086454D /* Info.plist */,
 				1273D59E2A9F29640086454D /* SignupViewController.swift */,
+				12A580142AA07DB90060F250 /* SignupViewModel.swift */,
 				1273D5AA2A9F2CC70086454D /* FormValidator */,
 			);
 			path = form_validators;
@@ -208,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1273D5BD2A9F31BC0086454D /* ConfirmPasswordValidator.swift in Sources */,
+				12A580152AA07DB90060F250 /* SignupViewModel.swift in Sources */,
 				1273D58B2A9F283E0086454D /* AppDelegate.swift in Sources */,
 				1273D5B92A9F31330086454D /* EmailValidator.swift in Sources */,
 				1273D5A62A9F2A8C0086454D /* EmptyRule.swift in Sources */,
