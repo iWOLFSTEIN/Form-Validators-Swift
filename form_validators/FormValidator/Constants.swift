@@ -17,5 +17,9 @@ struct Constants {
     static let username = "Username"
     static let errorLabelSpacingFromTextField: CGFloat = 4
     static let errorLabelFontSize: CGFloat = 12
+    static let emailRegex = "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+    static let usernameRegex = "^[a-zA-Z0-9_]{3,20}$"
+    static let minUsernameLength = 3
+    static let maxUsernameLength = 20
 }
 

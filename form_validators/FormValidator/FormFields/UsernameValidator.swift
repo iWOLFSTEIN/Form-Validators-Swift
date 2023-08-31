@@ -9,5 +9,6 @@ class UsernameValidator: FieldValidator {
     override init() {
         super.init()
         addRule(EmptyRule(field: Constants.username))
+        addRule(UsernameValidationRule())
     }
 }

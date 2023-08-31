@@ -9,5 +9,6 @@ class EmailValidator: FieldValidator {
     override init() {
         super.init()
         addRule(EmptyRule(field: Constants.email))
+        addRule(EmailValidationRule())
     }
 }
